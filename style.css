@@ -1,0 +1,134 @@
+body {
+    background: #002754;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    }
+    
+    h1 {
+    text-transform: uppercase;
+    background: #002754;
+    display: inline-block;
+    }
+    
+    h2 {
+    text-decoration: underline;
+    background: #7B6FDE;
+    width: 20%;
+    margin: auto;
+    }
+    
+    div {
+    padding: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    display: inline-block;
+    }
+    
+    section {
+    width: 50vw;
+    height: 20vw;
+    margin: auto;
+    /* margin-bottom: 100px; */
+    }
+    
+    #one {
+    background: rgb(200,60,60);
+    }
+    
+    #two {
+    font-weight: 400;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    }
+    
+    #space {
+    background: #266ef6;
+    }
+    
+    #power {
+    background: #e429f2;
+    }
+    
+    #soul {
+    background: #ff8b00;
+    }
+    
+    #reality {
+    background: #ff0130;
+    }
+    
+    #mind {
+    background: #ffd300;
+    }
+    
+    #time {
+    background: #12e772;
+    }
+    
+    #scroll {
+    margin-bottom: 2000px;
+    }
+    
+    /* START BELOW THIS LINE */
+
+    /* position: static;    
+    position: relative; 
+    position: relative;
+    position: absolute;
+    position: sticky;
+    position: fixed;
+    z-index: 1; */
+
+    h1{
+        position: sticky;
+        top: 1px;
+        z-index: 100;
+    }
+
+    h2{
+        position: sticky;
+        top: 65px;
+        z-index: 100;
+    }
+
+    #power{
+        position: relative;
+        left: 225px;
+    }
+
+    #space{
+        position: relative;
+        left: 115px;
+        top: 115px;
+    }
+
+    #soul{
+        position: absolute;
+        bottom:1px; 
+        right: 1px;
+        z-index: 1;
+    }
+
+    #reality{
+        position: absolute;
+        bottom: 150px; 
+        right: 1px;
+        z-index: 3;
+    }
+
+    #mind{
+        position: fixed;
+        bottom: 300px; 
+        right: 1px;
+    }
+
+    #time{
+        position: fixed;
+        top: 1px; 
+        right: 1px;
+        z-index: 2;
+    }
